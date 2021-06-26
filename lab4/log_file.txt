@@ -1,0 +1,815 @@
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.1, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.1) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[Veriflow::verifyRule] Network Broken!
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.1, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.2, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.2) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.2) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.2) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.2) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.2) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.2, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.3, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.3) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.3) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.3) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.3) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.3) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.3, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.4, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.4) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.4) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.4) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.4) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.4) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.4, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.5, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.5) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.5) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.5) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.5) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.5) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.5, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.6, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.6) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.6) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.6) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.6) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.6) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.6, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.7, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.7, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.8, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.8) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.8) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.8) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.8) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.8) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.8, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.9, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.9) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.9) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.9) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.9) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.9) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.9, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.10, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.10) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.10) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.10) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.10) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.10) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.10, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.11, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.11) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.11) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.11) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.11) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.11) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.11, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.12, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.12) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.12) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.12) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.12) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.12) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.12, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.13, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.13) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.13) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.13) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.13) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.13) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.13, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.14, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.14) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.14) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.14) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.14) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.14) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.14, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.15, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.15) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.15) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.15) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.15) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.15) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.15, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.16, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.16, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.17, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.17) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.17) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.17) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.17) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.17) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.17, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.18, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.18) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.18) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.18) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.18) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.18) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.18, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.19, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.19) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.19) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.19) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.19) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.19) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.19, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.20, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.20) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.20) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.20) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.20) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.20) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.20, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.21, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.21) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.21) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.21) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.21) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.21) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.21, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.22, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.22, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.23, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.23, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.24, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.24) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.24) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.24) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.24) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.24) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.24, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.25, nextHop: NULL, in_port: 0, priority: 0, wildcards: 4194303, in_port: 0, dl_type: 0, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 5
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 01:80:c2:00:00:0e, dlDstAddrMask: FF:FF:FF:FF:FF:FF, nwSrcAddr: 0.0.0.0, nwSrcAddrMask: 0.0.0.0, nwDstAddr: 0.0.0.0, nwDstAddrMask: 0.0.0.0, location: 20.0.0.25, nextHop: NULL, in_port: 0, priority: 65535, wildcards: 4194279, in_port: 0, dl_type: 35020, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 1
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (NULL) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (0.0.0.0-255.255.255.255), nw_dst (0.0.0.0-255.255.255.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.15, nextHop: 20.0.0.22, in_port: 1, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.22) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.15, nextHop: 10.0.0.18, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.22, nextHop: 20.0.0.23, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.23) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.22, nextHop: 20.0.0.15, in_port: 4, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.23, nextHop: 20.0.0.1, in_port: 4, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.1) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.1) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.1) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.23, nextHop: 20.0.0.22, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.1, nextHop: 20.0.0.25, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.25) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.1, nextHop: 20.0.0.23, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.25, nextHop: 10.0.0.12, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.25, nextHop: 20.0.0.1, in_port: 1, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.22, nextHop: 20.0.0.9, in_port: 4, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.22, nextHop: 20.0.0.23, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.9, nextHop: 20.0.0.16, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.16) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.9, nextHop: 20.0.0.22, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.16, nextHop: 20.0.0.7, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as current location (20.0.0.7) not found in the graph.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.16, nextHop: 20.0.0.9, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.7, nextHop: 20.0.0.25, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as there is no outgoing link at current location (20.0.0.25).
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as there is no outgoing link at current location (20.0.0.25).
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] Found a BLACK HOLE for the following packet class as there is no outgoing link at current location (20.0.0.25).
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.7, nextHop: 20.0.0.16, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.25.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.25, nextHop: 20.0.0.1, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+
+[VeriFlow::verifyRule] ecCount: 3
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+
+[VeriFlow::traverseForwardingGraph] The following packet class reached destination at node 20.0.0.15.
+[VeriFlow::traverseForwardingGraph] PacketClass: nw_src (10.0.0.0-10.0.0.255), nw_dst (10.0.0.0-10.0.0.255), nw_proto (0, 255), tp_src(0, 65535), tp_dst(0, 65535)
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.25, nextHop: 20.0.0.7, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.22, nextHop: 20.0.0.9, in_port: 4, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.22, nextHop: 20.0.0.23, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.9, nextHop: 20.0.0.16, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.9, nextHop: 20.0.0.22, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.16, nextHop: 20.0.0.7, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.16, nextHop: 20.0.0.9, in_port: 2, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0, nwSrcAddr: 10.0.0.0, nwSrcAddrMask: 255.255.255.0, nwDstAddr: 10.0.0.0, nwDstAddrMask: 255.255.255.0, location: 20.0.0.7, nextHop: 20.0.0.25, in_port: 3, priority: 1, wildcards: 3279086, in_port: 0, dl_type: 2048, dl_vlan: 0, dl_vlan_pcp: 0, mpls_label: 0, mpls_tc: 0, nw_proto: 0, nw_tos: 0, tp_src: 0, tp_dst: 0
+[VeriFlow::verifyRule] verifying this rule: [Rule] type: 1, dlSrcAddr: 00:00:00:00:00:00, dlSrcAddrMask: 0:0:0:0:0:0, dlDstAddr: 00:00:00:00:00:00, dlDstAddrMask: 0:0:0:0:0:0,
